@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scratchos.GitHub.io by ScratchOs</title>
+
+    <link rel="stylesheet" href="http://scratchos.github.io/stylesheets/styles.css">
+    <link rel="stylesheet" href="http://scratchos.github.io/stylesheets/pygment_trac.css">
+    <script src="http://scratchos.github.io/javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="without-description">
+        <h1>Scratchos.GitHub.io</h1>
+        <p></p>
+        <p class="view"><a href="https://github.com/ScratchOs">View the Project on GitHub <small>ScratchOs</small></a></p>
+        <ul>
+          <li class="single"><a href="https://github.com/ScratchOs/ScratchOs.github.io">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h2>
+          Scratch-Mod Misc
+        </h2>
+        <h3>
+          Documentation for the misc section of -ScratchOs's Scratch-Mod
+        </h3>
+        <pre>
+(function(ext) {
+  // Cleanup function when the extension is unloaded
+  ext._shutdown = function() {};<br>
+  // Status reporting code
+  // Use this to report missing hardware, plugin or unsupported browser
+  ext._getStatus = function() {
+    return {status: 2, msg: 'Ready'};
+  };<br>
+  ext.comment = function(string) {};<br>
+  // Block and block menu descriptions
+    var descriptor = {
+      blocks: [
+        [' ', '/ %s', 'comment', 'comment'],
+      ]
+    };<br>
+  // Register the extension
+  ScratchExtensions.register('Mod - Misc', descriptor, ext);
+})({});
+        </pre>
+      </section>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
+
