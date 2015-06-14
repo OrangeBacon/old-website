@@ -353,3 +353,8 @@ footer p + p {
   header p.view a small:before {
     content: 'at https://github.com/';+  }
 }
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
