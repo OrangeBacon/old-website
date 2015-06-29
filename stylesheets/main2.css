@@ -20,7 +20,7 @@
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top: 100px;
 }
 
 .jumbotron h1 {
@@ -31,7 +31,6 @@
 
 .jumbotron p {
   font-size: 20px;
-  color: #fff;
 }
 
 .learn-more {
