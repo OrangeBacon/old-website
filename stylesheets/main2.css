@@ -10,11 +10,6 @@
   display: inline;
 }
 
-.nav {
-  position: fixed;
-  background-color: #ffffff;
-}
-
 .jumbotron {
   background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png');
   height: 500px;
