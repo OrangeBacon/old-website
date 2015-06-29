@@ -8,6 +8,7 @@
 
 .nav li {
   display: inline;
+  position: fixed;
 }
 
 .jumbotron {
