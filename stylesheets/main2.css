@@ -47,25 +47,11 @@
   color: #00b0ff;
 }
 
-.blur-wrapper {
-    height:400px;
-    width:400px;
-    position: relative;
-}
-
-.blur {
-    width:100%;
-    height:100%;
-    position: absolute;
-    background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/4d/Apple_II_Monitor.png');
-    background-size:cover;
-    -webkit-filter: blur(4px);
-    -moz-filter: blur(4px);
-    -ms-filter: blur(4px);
-    -o-filter: blur(4px);
-    filter: blur(4px);
-}
-
-.content{
-    position: absolute;
+.overlay {
+  background-color: white;
+  -webkit-filter: blur(4px);
+  -moz-filter: blur(4px);
+  -ms-filter: blur(4px);
+  -o-filter: blur(4px);
+  filter: blur(4px);
 }
