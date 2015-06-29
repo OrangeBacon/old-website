@@ -8,6 +8,9 @@
 
 .nav li {
   display: inline;
+}
+
+.nav {
   position: fixed;
 }
 
