@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="//scratchos.github.io/ScratchBlocks/scratchblocks2.css">
+		<script src="//scratchos.github.io/ScratchBlocks/scratchblocks2.js"></script>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -8,8 +10,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>-ScratchOs|Home</title>
-		<link rel="stylesheet" href="//scratchos.github.io/ScratchBlocks/scratchblocks2.css">
-		<script src="//scratchos.github.io/ScratchBlocks/scratchblocks2.js"></script>
 		<script>
 			$(document).ready(function() {
 				scratchblocks2.parse();
@@ -19,48 +19,65 @@
 	
 	<body>
 		<div class="nav nav-tabs">
-		<li class=active><a href="#">Home</a></li>
-		<li><a href="#">My Projects</a></li>
-		<li>
-			<div class="dropdown">
-				<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hungry-For-Blocks<span class="caret"></span></button>
-				<ul class="dropdown-menu">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Documentation</a></li>
-					<li><a href="#">Instalation</a></li>
-				</ul>
-			</div>
-		</li>
-	</div>
-
-	<div class="jumbotron">
-		<div class="container">
-			<h1>Welcome to -ScratchOs's Website</h1>
+			<li class=active><a href="#">Home</a></li>
+			<li><a href="#">My Projects</a></li>
+			<li>
+				<div class="dropdown">
+					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hungry-For-Blocks<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Documentation</a></li>
+						<li><a href="#">Instalation</a></li>
+					</ul>
+				</div>
+			</li>
 		</div>
-	</div>
+
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Welcome to -ScratchOs's Website</h1>
+			</div>
+		</div>
 
 
-    <div class="learn-more">
-	  <div class="container">
-		<div class="row">
-	  	  <div class="col-md-4">
-			<h3>Travel</h3>
-			<p>From apartments and rooms to treehouses and boats: stay in unique spaces in 192 countries.</p>
-			<p><a href="#">See how to travel on Airbnb</a></p>
-		  </div>
-		  <div class="col-md-4">
-			<h3>Host</h3>
-			<p>Renting out your unused space could pay your bills or fund your next vacation.</p>
-			<p><a href="#">Learn more about hosting</a></p>
-	      </div>
-		  <div class="col-md-4">
-			<h3>Trust and Safety</h3>
-			<p>From Verified ID to our worldwide customer support team, we've got your back.</p>
-			<p><a href="#">Learn about trust at Airbnb</a></p>
-		  </div>
-	    </div>
-	  </div>
-	</div>
+		<div class="learn-more">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<h3>Scripts</h3>
+						<pre class="blocks">
+define -ScratchOs's Website
+say [This is my website]
+repeat (10)
+say [Welcome to it.]
+end
+repeat (5)
+say[This is rendered by tjvr (blob8018)'s block plugin.
+say [Isn't it cool]
+end
+						</pre>
+						<p><a href="#">See more of my projects</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Extensions</h3>
+						<pre class="blocks">
+When Hungry-For-Blocks started ::events hat
+say [This is a scratch extention made by me with blocks including:]
+if <> then () else () ::extension reporter
+()^() ::extension reporter
+counter ::extension reporter
+increase counter by () ::extension
+						</pre>
+						<p><a href="#">Learn more Hungry-For-Blocks</a></p>
+					</div>
+					<div class="col-md-4">
+						<h3>Projects</h3>
+						<p>I have created various scratch projects including games and math projects.</p>
+						<p><a href="#">View them here</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
   </body>
 </html>
