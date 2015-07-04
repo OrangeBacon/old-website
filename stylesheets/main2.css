@@ -10,8 +10,8 @@
   display: inline;
 }
 
-.jumbotron {
-  background-image:url('https://scratchos.github.io/images/hungry-for-blocks.png');
+.jumbotronmain {
+  background-image:url('https://scratchos.github.io/images/jumbotron.png');
   height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
