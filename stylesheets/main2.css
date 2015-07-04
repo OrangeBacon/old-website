@@ -18,7 +18,7 @@
   color: #ff6600;
 }
 
-.jumbotron .container {
+.jumbotronmain .container {
   position: relative;
   top: 100px;
 }
@@ -29,7 +29,7 @@
   font-weight: bold;
 }
 
-.jumbotron p {
+.jumbotronmain p {
   font-size: 20px;
 }
 
@@ -49,5 +49,4 @@
 
 .forum {
  padding: 20px; 
-}
 }
