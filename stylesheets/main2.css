@@ -10,7 +10,7 @@
   display: inline;
 }
 
-.jumbotronmain {
+.jumbotron {
   background-image:url('https://scratchos.github.io/images/jumbotron.png');
   height: 500px;
   background-repeat: no-repeat;
@@ -18,43 +18,21 @@
   color: #ff6600;
 }
 
-.jumbotronmain .container {
+.jumbotron .container {
   position: relative;
   top: 100px;
 }
 
-.jumbotronmain h1 {
+.jumbotron h1 {
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
-.jumbotronmain p {
+.jumbotronm p {
   font-size: 20px;
 }
 
-.jumbotronblock {
-  background-image:url('https://scratchos.github.io/images/hungry-for-blocks.png');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #ff6600;
-}
-
-.jumbotronblock .container {
-  position: relative;
-  top: 100px;
-}
-
-.jumbotronblock h1 {
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
-}
-
-.jumbotronblock p {
-  font-size: 20px;
-}
 .learn-more {
   background-color: #f7f7f7;
 }
