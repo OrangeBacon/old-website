@@ -19,8 +19,11 @@
 		<script> 
 			$(function(){
 				$("#nav").load("http://scratchos.github.io/resorces/navbar.html"); 
-				$('#hfb').dropdown();
 			});
+			$('#hfb a').click(function (e) {
+				e.preventDefault()
+				$(this).tab('show')
+			})
 		</script>
 		
 	</head>
