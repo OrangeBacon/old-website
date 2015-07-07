@@ -21,8 +21,8 @@
 	
 	<body>
 		
-		<iframe src="http://scratchos.github.io/resorces/navbar.html?active=home" seamless="true" width="100%"></iframe>
-		
+		<!--<iframe src="http://scratchos.github.io/resorces/navbar.html?active=home" seamless="true" width="100%"></iframe>-->
+		<!--#include virtual="/menu.htm" -->
 		<div class="jumbotron">
 			<div class="container">
 				<h1>Welcome to -ScratchOs's Website</h1>
