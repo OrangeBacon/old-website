@@ -7,23 +7,24 @@
 		<link rel="stylesheet" href="http://scratchos.github.io/stylesheets/main2.css">
 		<meta charset="utf-8">
 		<script>
-		  function getParameter(theParameter) { 
-        var params = window.location.search.substr(1).split('&');
-        for (var i = 0; i < params.length; i++) {
-          var p=params[i].split('=');
-	        if (p[0] == theParameter) {
-	          return decodeURIComponent(p[1]);
-	        }
-        }
-        return false;
-      }</script>
+			function getParameter(theParameter) { 
+				var params = window.location.search.substr(1).split('&');
+				for (var i = 0; i < params.length; i++) {
+					var p=params[i].split('=');
+					if (p[0] == theParameter) {
+						return decodeURIComponent(p[1]);
+					}
+				}
+				return false;
+			}
+			</script>
 	</head>
 	
 	<body>
 		<div class="nav nav-tabs">
 			<li id="home"><a href="#">Home</a></li>
-			<li><a href="#">My Projects</a></li>
-			<li>
+			<li id="projects"><a href="#">My Projects</a></li>
+			<li id="hfb">
 				<div class="dropdown">
 					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hungry-For-Blocks<span class="caret"></span></button>
 					<ul class="dropdown-menu">
@@ -34,10 +35,10 @@
 					</ul>
 				</div>
 			</li>
-			<li><a href="#">Tutorials</a></li>
+			<li id="tut"><a href="#">Tutorials</a></li>
 		</div>
 		
-		<script>document.getElementById(getParameter("active")).classname = "active";</script>
+		<script>window.onload = function () {$(getParameter("active")).addclass("active");}</script>
     
   </body>
 </html>
