@@ -21,7 +21,8 @@
 	
 	<body>
 		
-		<iframe src="http://scratchos.github.io/resorces/navbar.html?active=home" seamless="true" ></iframe>
+		<!--<iframe src="http://scratchos.github.io/resorces/navbar.html?active=home" seamless="true" ></iframe>-->
+		<?php include 'includes/nav.php'; ?>
 		
 		<div class="jumbotron">
 			<div class="container">
