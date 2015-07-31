@@ -23,7 +23,7 @@
     itop:  top border for inserts (eg. dropdown menus)
     ibot:  bottom border for inserts (eg. dropdown menus)
     inset: background colour for dropdown menus
-    arrow: colour of the "▼" dropdown arrow
+    arrow: colour of the "â–¼" dropdown arrow
 */
 .box-sizing_content-box {
   box-sizing: content-box;
@@ -1071,7 +1071,7 @@
 }
 .sb2 .dropdown:after,
 .sb2 .number-dropdown:after {
-  content: "▼";
+  content: "â–¼";
   font-size: 8px;
   padding: 0 0 0 4px;
   border-radius: 2px;
