@@ -8,7 +8,3 @@ function getParameter(theParameter) {
 	}
 	return false;
 };
-
-window.onload = function () {
-	$("#" + getParameter("active")).addClass("active");
-};
