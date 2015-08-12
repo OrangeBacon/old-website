@@ -9,13 +9,6 @@ function getParameter(theParameter) {
 	return false;
 };
 
-$(document).ready = function () {
-	$('.dropdown-toggle').dropdown();
-};
-
 window.onload = function () {
 	$("#" + getParameter("active")).addClass("active");
-	if (getParameter("dis") !== false) {
-		$("#" + getParameter("dis")).addClass("disabled");
-	};
 };
