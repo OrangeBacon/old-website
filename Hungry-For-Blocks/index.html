@@ -4,6 +4,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<link rel="stylesheet" href="//scratchblocks.github.io/scratchblocks2.css">
 		<script src="//scratchblocks.github.io/scratchblocks2.js"></script>
+			<script> 
+			$(function(){
+				$("#nav").load("http://scratchos.github.io/resorces/navbar.html"); 
+			});
+		</script>
 		<script>
 			$(document).ready(function() {
 				scratchblocks2.parse('blocks');
@@ -15,27 +20,12 @@
 		<style>.jumbotron{background-image:url('https://scratchos.github.io/images/hungry-for-blocks.png');}</style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Hungry-For-Blocks|Home</title>
+		<title>-ScratchOs|Hungry-For-Blocks</title>
 		
 	</head>
 	
 	<body>
-		<div class="nav nav-tabs">
-			<li><a href="//scratchos.github.io/">Home</a></li>
-			<li><a href="#">My Projects</a></li>
-			<li class="active">
-				<div class="dropdown">
-					<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Hungry-For-Blocks<span class="caret"></span></button>
-					<ul class="dropdown-menu">
-						<li class="disabled"><a href="//scratchos.github.io/Hungry-For-Blocks/">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Documentation</a></li>
-						<li><a href="#">Instalation</a></li>
-					</ul>
-				</div>
-			</li>
-			<li><a href="#">Tutorials</a></li>
-		</div>
+		<div id="nav"></div>
 		
     <div class="jumbotron">
 			<div class="container">
