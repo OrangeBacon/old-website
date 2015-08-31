@@ -16,6 +16,15 @@
   background-size: cover;
   color: #ff6600;
 }
+.jumbotron a:link {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.jumbotron a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
 
 .jumbotron .container {
   position: relative;
