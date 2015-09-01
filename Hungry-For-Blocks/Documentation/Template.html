@@ -3,6 +3,11 @@
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="http://scratchos.github.io/javascripts/nav.js"></script>
+		<script> 
+			$(function(){
+				$("#nav").load("http://scratchos.github.io/resorces/navbar.html"); 
+			});
+		</script>
 		<link rel="stylesheet" href="//scratchos.github.io/ScratchBlocks/scratchblocks2.css">
 		<script src="//scratchos.github.io/ScratchBlocks/scratchblocks2.js"></script>
 		<script>
@@ -14,6 +19,8 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="http://scratchos.github.io/stylesheets/main.css">
 		<style>.jumbotron{background-image:url('https://scratchos.github.io/images/');}</style>
+		<link href="http://scratchos.github.io/stylesheets/tabs.css" rel="stylesheet" type="text/css">
+		<script src="http://scratchos.github.io/JavaScript/tabs.js" type="text/javascript"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>-ScratchOs|Home</title>
@@ -21,12 +28,11 @@
 	
 	<body>
 		<div id="nav"></div>
-		<div class="jumbotron">
-			<div class="container">
-				<h1></h1>
-			</div>
-		</div>
 		<div class="learn-more">
+			<ul class="tabs">
+				<li><a href="#view1">Page 1</a></li>
+				<li><a href="#view2">Page 2</a></li>
+			</ul>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4"></div>
