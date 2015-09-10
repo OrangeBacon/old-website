@@ -2,8 +2,8 @@
 <html lang="en">
 	<head>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script type="text/javascript" src="<link rel="stylesheet" href="https://cdn.rawgit.com/ScratchOs/JavaScript-Tabs/master/src/tabs.js">"></script>
-    <link rel="stylesheet" href="https://cdn.rawgit.com/ScratchOs/JavaScript-Tabs/master/src/tabs.css">
+		<script type="text/javascript" src="https://cdn.rawgit.com/ScratchOs/JavaScript-Tabs/master/src/tabs.js"></script>
+		<link rel="stylesheet" href="https://cdn.rawgit.com/ScratchOs/JavaScript-Tabs/master/src/tabs.css">
 		<script> 
 			$(function(){
 				$("#nav").load("http://scratchos.github.io/resorces/navbar.html"); 
@@ -40,7 +40,16 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-					  <ul class="tabs" id="tabs1"></ul>
+					  <ul class="tabs" id="tabs1">
+					  	<li class="tab" id="page1"><a href="#" onclick="tab('1', '1')">Tutorials</a></li>
+					  	<li class="tab" id="page2"><a href="#" onclick="tab('1', '2')">Scratch Extensions</a></li>
+					  	<li class="tab" id="page2"><a href="#" onclick="tab('1', '2')">---</a></li>
+					  </ul>
+					  <div class="tabcontent" id="tabs1">
+					  	<div class="page" id="page1">Welcome to my tutorials</div>
+					  	<div class="page" id="page2">This is my tutorial on how to write a scratch extension.</div>
+					  	<div class="page" id="page3">Content 1</div>
+					  </div>
 					</div>
 				</div>
 			</div>
