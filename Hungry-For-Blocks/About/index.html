@@ -13,7 +13,7 @@
 		</script>
 		<script>
 			$(document).ready(function() {
-				scratchblocks2.parse('blocks');
+				scratchblocks2.parse('p.blocks');
 			});
 		</script>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -36,10 +36,46 @@
 						
 					</div>
 					<div class="col-md-4">
-					  
+delete [name] ::extension
+set [name] to [value] ::extension
+create [name] value [value] ::extension
+reset counter::extension
+change counter by (1)::extension
+/  [comment]::extension
+set tab name to [name]::extension
+set page background to [url]::extension
+start blockset [name]::extension
+global var [name] value [value]::extension
+create block:params[a,b] js [retrun a*b] type [r - reporter v]  desc [%n * %n]::extension
+create menu name [name] items ["hello", "world"]::extension
+info url http://[scratch.mit.edu]::extension
+status text [ready] ::extension
+load blockset ::extension
+set comment to [comment] ::extension
+notify [hello world] ::extension
+eval [true]::extension
 					</div>
 					<div class="col-md-4">
-					  
+						<p class="blocks">
+[name] exists?::extension reporter
+var name [key] ::extension reporter
+(2) ^ (3) ::extension reporter
+(3) √ (8) ::extension reporter
+status ::extension reporter
+error ::extension reporter
+(1) [= v] (2) ::extension reporter
+if <> then [hello] else [world] ::extension reporter
+constant [pi v] ::extension reporter
+counter ::extension reporter
+false ::extension reporter
+true ::extension reporter
+page background ::extension reporter
+tab name ::extension reporter
+comment value::extension reporter
+hungry-for-blocks installed ::extension reporter
+A:()R:()G:()B:() ::extension reporter
+eval [return true] ::extension reporter
+						</p>
 					</div>
 				</div>
 			</div>
