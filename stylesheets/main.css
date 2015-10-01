@@ -75,3 +75,8 @@ noscript {
 	border: 5px solid black;
 
 }
+
+.footer {
+	padding:20px;
+	display:inline;
+}
