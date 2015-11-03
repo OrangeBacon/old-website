@@ -46,15 +46,20 @@
       }
     </style>
     <script>
+      var t=0;
       window.onload = function() {
-        var width = document.getElementById('menu').offsetWidth;
-        document.getElementById('nav').style.width = (width + 20) + "px";
-        document.getElementById('menu').style.textAlign = "center";
+        //var width = document.getElementById('menu').offsetWidth;
+        //document.getElementById('nav').style.width = (width + 20) + "px";
+        //document.getElementById('menu').style.textAlign = "center";
+        setInterval(menuclose, 10);
         setInterval(run, 100);
       };
-      
+      function menuclose() {
+        document.getElementById('nav').style.width = t<.5 ? 2*t*t : -1+(4-2*t)*t "px";
+        t = t + 0.01;
+      }
       function run() {
-        if (window.innerHeight > document.getElementById('window').style.height {
+        if (window.innerHeight > document.getElementById('window').style.height) {
           document.getElementById('footer').style.position = "absolute";
           document.getElementById('footer').style.bottom = 0;
         } else {
