@@ -50,10 +50,20 @@
         var width = document.getElementById('menu').offsetWidth;
         document.getElementById('nav').style.width = (width + 20) + "px";
         document.getElementById('menu').style.textAlign = "center";
-      }
+        setInterval(run, 100);
+      };
+      
+      function run() {
+        if (window.innerHeight > document.getElementById('window').style.height {
+          document.getElementById('footer').style.position = "absolute";
+          document.getElementById('footer').style.bottom = 0;
+        } else {
+          document.getElementById('footer').style.position = "static";
+        }
+      };
     </script>
   </head>
-  <body>
+  <body id="window">
     <div id="nav">
       <i class="material-icons" id="menu">menu</i>
     </div>
