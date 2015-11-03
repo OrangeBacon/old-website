@@ -49,6 +49,15 @@
       var menu = 0
       window.onload = function() {
         setInterval(run, 100);
+        document.getElementById('menu').onclick = function() {
+          if(menu == 1) {
+            menu = 0;
+            document.getElementById('nav').style.width = "2em";
+          } else {
+            menu = 1;
+            document.getElementById('nav').style.width = "20%"; 
+          }
+        }
       };
       function run() {
         if (window.innerHeight > document.getElementById('window').style.height) {
@@ -58,15 +67,6 @@
           document.getElementById('footer').style.position = "static";
         }
       };
-      document.getElementById('menu').onclick = function() {
-        if(menu == 1) {
-          menu = 0;
-          document.getElementById('nav').style.width = "2em";
-        } else {
-          menu = 1;
-          document.getElementById('nav').style.width = "20%"; 
-        }
-      }
     </script>
   </head>
   <body id="window">
