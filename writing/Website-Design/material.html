@@ -24,7 +24,7 @@
         left:10%;
       }
       #nav {
-        width:20%;
+        width:2em;
         z-index:200;
         webkit-box-shadow: 8px 0px 6px -6px black;
         -moz-box-shadow: 8px 0px 6px -6px black;
@@ -36,7 +36,7 @@
         height:100%;
       }
       #footer {
-        width:100%;
+        width:98%;
         background-color:#64B5F6;
         z-index:100;
         webkit-box-shadow: 0 -8px 6px -6px black;
@@ -48,16 +48,8 @@
     <script>
       var t=0;
       window.onload = function() {
-        //var width = document.getElementById('menu').offsetWidth;
-        //document.getElementById('nav').style.width = (width + 20) + "px";
-        //document.getElementById('menu').style.textAlign = "center";
-        setInterval(menuclose, 10);
         setInterval(run, 100);
       };
-      function menuclose() {
-        document.getElementById('nav').style.width = t<.5 ? 2*t*t : -1+(4-2*t)*t + "px";
-        t = t + 0.01;
-      }
       function run() {
         if (window.innerHeight > document.getElementById('window').style.height) {
           document.getElementById('footer').style.position = "absolute";
