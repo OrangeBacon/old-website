@@ -51,7 +51,7 @@
         -moz-box-shadow: 0 -8px 6px -6px black;
         box-shadow: 0 -8px 6px -6px black;
         padding:1%;
-        padding-left:3em;
+        padding-left:0;
       }
       #content {
         padding-top:10em;
@@ -59,7 +59,7 @@
       #content > p {
         cursor:normal;
         font-family:"Trebuchet MS", Helvetica, sans-serif;
-        padding-left:3em;
+        margin-left:3em;
       }
     </style>
     <script>
@@ -89,6 +89,17 @@
   <body id="window">
     <div id="nav">
       <i class="material-icons" id="menu">menu</i>
+      <ul>
+        <li>menu item</li>
+        <li>
+          menu item
+          <ul>
+            <li>submenu</li>
+            <li>submenu</li>
+          </ul>
+        </li>
+        <li>menu item</li>
+      </ul>
     </div>
     <div id="header">
       <h1>My title</h1>
