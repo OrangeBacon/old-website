@@ -1,0 +1,43 @@
+---
+---
+@import 'syntax';
+* {
+  font-family:sans-serif;
+  box-sizing:border-box;
+  margin:0;
+}
+$header-height: 3em;
+html,body {
+  margin:0;
+}
+.header {
+  background-color:lightgray;
+  position:fixed;
+  width:100%;
+  height: $header-height;
+  top:0;
+  line-height:$header-height;
+  text-align:center;
+}
+.left {
+  float:left;
+  padding-left:1em;
+}
+.center {
+  display:inline-block;
+}
+.right {
+  float:right;
+  padding-right:1em;
+  a:not(:first-child):before {
+	content: ' | ';
+	cursor: default;
+  }
+}
+.left a,.right a{
+  text-decoration:none;
+  color:black;
+}
+.wrapper {
+  margin-top: $header-height;
+}

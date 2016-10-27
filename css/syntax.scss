@@ -1,0 +1,22 @@
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  margin: 1em 0 1em 2em;
+  background: url('../assets/code-background.svg');
+  .lineno {
+    padding-right: 0.5em;
+	border-left: 3px solid #00f;
+	padding-left: 0.5em;
+	border-right: 2px solid #d3d3d3;
+	margin-right: 0.3em;
+  }
+  .s1 {color:#c51e1e;} //string
+  .p  {color:#a1a6b6;} //parens
+  .kd {color:#0000ff;} //declaration
+  .k  {color:#0000ff;} //keyword
+  .mi {color:#c51e1e;} //numbers
+  .nx {color:#1fd219;} //varnames
+  .c1 {color:green} //comment
+  .cm {color:green} //multiline comment
+}

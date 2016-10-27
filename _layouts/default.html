@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+	<link rel='stylesheet' href=
+	{% if jekyll.environment == 'development' %}
+	  '{{ "css/default.css" | prepend: site.baseurl | prepend: site.development-url }}'
+	{% else %} 
+	  '{{ "css/default.css" | prepend: site.baseurl | prepend: site.production-url }}'
+	{% endif %}
+	>
+  </head>
+  <body>
+    {% include header.html %}
+	<div class='wrapper'>
+      {{ content }}
+	</div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,9 @@
+# global variables
+development-url: //localhost:4000
+production-url: scratchos.github.io
+baseurl: /
+
+# settings
+markdown: kramdown
+sass:
+  sass_dir: css

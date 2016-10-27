@@ -1,80 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-		<script> 
-			$(function(){
-				$("#nav").load("http://scratchos.github.io/resorces/navbar.html"); 
-				$(".footer").load("http://scratchos.github.io/resorces/footer.html"); 
-			});
-		</script>
-		<link rel="stylesheet" href="//scratchos.github.io/ScratchBlocks/scratchblocks2.css">
-		<script src="//scratchos.github.io/ScratchBlocks/scratchblocks2.js"></script>
-		<script>
-			$(document).ready(function() {
-				scratchblocks2.parse();
-			});
-		</script>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="http://scratchos.github.io/stylesheets/main.css">
-		<script src="//scratchos.github.io/JavaScript/footer.js"></script>
-		<style>.jumbotron{background-image:url('https://scratchos.github.io/images/jumbotron.png');}</style>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>-ScratchOs|Home</title>
-		
-	</head>
-	
-	<body>
-		
-		<div id="nav"></div>
-		<noscript>My website uses JavaScript, however you have it disabled.  Please enable JavaScript to browse this website effectively.</noscript>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>Welcome to -ScratchOs's Website</h1>
-			</div>
-		</div>
+---
+layout: default
+title: homepage
+---
 
-
-		<div class="learn-more">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<h3>Scripts</h3>
-						<pre class="blocks">
-define -ScratchOs's Website
-say [This is my website]
-repeat (10)
-say [Welcome to it.]
-end
-repeat (5)
-say[This is rendered by tjvr (blob8108)'s block plugin.
-say [Isn't it cool]
-end
-						</pre>
-						<p><a href="#">See more of my projects</a></p>
-					</div>
-					<div class="col-md-4">
-						<h3>Extensions</h3>
-						<pre class="blocks">
-When Hungry-For-Blocks started ::events hat 
-say [This is a scratch extention made by me with blocks like:]
-if <> then () else () ::extension reporter
-()^() ::extension reporter
-counter ::extension reporter
-increase counter by () ::extension
-						</pre>
-						<p><a href="#">Learn more about Hungry-For-Blocks</a></p>
-					</div>
-					<div class="col-md-4">
-						<h3>Projects</h3>
-						<p>I have created various scratch projects including games and math projects.</p>
-						<p><a href="#">View them here</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="footer">my footer test</div>
-	</body>
-</html>
+<div class="home">
+  hello, welcome to my website
+{% highlight javascript linenos %}
+/* function to print out and return a string of a list */
+let printList = list => {
+  let out = ''; // value to return
+  for(var i=0;i<list.length;i++){
+    console.log(list[i]);
+	out += list[i];
+  }
+  return out;
+}
+// run function
+printlist(['hello','hi']) // => 'hellohi'
+{% endhighlight %}
+</div>

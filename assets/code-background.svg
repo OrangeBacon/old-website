@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <style>.s{stroke-width:1;stroke:#eee;}</style>
+  <g transform="translate(0.36892539,0.39927158)">
+    <path d="m100 0 0 300" class="s"/>
+    <path d="m200 0 0 300" class="s"/>
+	<path d="m0 100 300 0M0 200l300 0M0 200l300 0M0 200l300 0M0 200l300 0" class="s"/>
+	<path d="m20 0 0 300M40 0l0 300M40 0l0 300M40 0l0 300M40 0l0 300M60 0l0 300M80 0l0 300M120 0l0 300M140 0l0 300M160 0l0 300M180 0l0 300M220 0l0 300M240 0l0 300M260 0l0 300M280 0l0 300" class="s"/>
+	<path d="m0 20 300 0M0 40l300 0M0 40l300 0M0 40l300 0M0 40l300 0M0 60l300 0M0 80l300 0M0 120l300 0M0 140l300 0M0 160l300 0M0 180l300 0M0 220l300 0M0 240l300 0M0 260l300 0M0 280l300 0" class="s"/>
+  </g>
+</svg>
